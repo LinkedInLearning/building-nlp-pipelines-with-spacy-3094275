@@ -1,3 +1,5 @@
+# Executing a Training Loop from scratch
+
 # Importing the blank English model
 
 nlp = spacy.blank('en')
@@ -14,11 +16,15 @@ ner.add_label('GADGET')
 
 nlp.begin_training() # Starting the training
 
+# Implementing Batch processing with batch size of 2
+
 for itn in range(10): # Looping for 10 iterations
 
   random.shuffle(TRAINING_DATA) # shuffling
 
   losses = {} # Implementing batch processing
+
+  # Extracting text & annotations from respective entities
 
   for batch in spacy.util.minibatch(TRAINING_DATA, size=2):
 
@@ -26,6 +32,8 @@ for itn in range(10): # Looping for 10 iterations
 
     annotations = [entities for text, entities in batch]
 
-    nlp.update(texts, annotations, losses=losses # updating the model
+    # Updating & saving the model after each iteration & printing the iteration loss
+
+    nlp.update(texts, annotations, losses=losses) # updating the model
 
     print(losses)
