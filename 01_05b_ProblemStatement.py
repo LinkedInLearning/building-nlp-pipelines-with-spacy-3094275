@@ -1,6 +1,6 @@
 # Part - 1
 
-text = “Ram goes to college everyday by car.”
+text = 'Ram goes to college everyday by car.'
 
 # Importing spacy and getting all attributes.
 
@@ -21,7 +21,7 @@ for token in doc:
 
 # Part - 2
 
-text = “Ram goes to college everyday by car.”
+text = 'Ram goes to college everyday by car.'
 
 # Importing spacy and getting all attributes.
 
