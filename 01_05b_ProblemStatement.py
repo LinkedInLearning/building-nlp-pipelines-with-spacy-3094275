@@ -6,15 +6,21 @@ text = 'Ram goes to college everyday by car.'
 
 nlp = _________
 
+# Creating doc object
+
 doc = _________
 
 for token in doc:
+  
+  # Getting token’s text, part of speech tags and dependency labels
   
   token_text = _________ # Getting the corresponding text
   
   token_dep = _________ # Getting the Dependency label
   
   token_pos = _________ # Getting the POS Tag
+
+  # Printing entities text and label attributes
   
   print(token_text, token_dep, token_pos)
 
