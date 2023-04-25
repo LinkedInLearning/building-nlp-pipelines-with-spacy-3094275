@@ -1,7 +1,14 @@
-# Building NLP Pipelines with SpaCy
-This is the repository for the LinkedIn Learning course Building NLP Pipelines with SpaCy. The full course is available from [LinkedIn Learning][lil-course-url].
+# Building NLP Pipelines with spaCy
+This is the repository for the LinkedIn Learning course Building NLP Pipelines with spaCy. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
+![Building NLP Pipelines with spaCy][lil-thumbnail-url] 
+
+Are you looking to learn more about the key features and functionalities built into spaCy? Look no further. It’s time to get up to speed with using the extensive spaCy library to solve complex natural language processing tasks. Join instructor Prateek Sawhney in this advanced skills development course, as he demonstrates business-critical approaches and techniques to solving problems in rule-based AI and machine learning.
+
+Learn the basics of how to leverage the complex and advanced spaCy library to address real-world technical problems. From text processing to data analysis, processing pipelines, and training an artificial neural network, Prateek helps you get up and running quickly with results-driven problem-solving tasks. Along the way, you can test out your new skills in the exercise challenges at the end of each section.
+
+
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -20,15 +27,16 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+
+### Instructor
+
+Prateek Sawhney 
+                            
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+                            
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/prateek-sawhney).
 
+[lil-course-url]: https://www.linkedin.com/learning/building-nlp-pipelines-with-spacy?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGSkPQj_ARTiQ/learning-public-crop_675_1200/0/1682109018848?e=2147483647&v=beta&t=SpA45d2JCW2kyqYxHdGHgZB8W_O-NN17E6vxE0qA5h0
